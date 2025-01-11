@@ -3,7 +3,7 @@ import {  Link, NavLink } from "react-router-dom";
 function Nav() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg w-100 ">
+      <nav className="navbar navbar-expand-lg w-100 fixed-top">
         <div className="container-fluid">
           <Link className="navbar-brand" to={"home"}>
             Start Framework
