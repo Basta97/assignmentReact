@@ -5,7 +5,7 @@ function Nav() {
     <div>
       <nav className="navbar navbar-expand-lg w-100 ">
         <div className="container-fluid">
-          <Link className="navbar-brand" to={"/home"}>
+          <Link className="navbar-brand" to={"home"}>
             Start Framework
           </Link>
           <button
@@ -22,17 +22,17 @@ function Nav() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav text-center">
               <li className="nav-item">
-                <NavLink className="nav-link" aria-current="page" to={"/about"}>
+                <NavLink className="nav-link" aria-current="page" to={"about"}>
                   About
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to={"/portfolio"}>
+                <NavLink className="nav-link" to={"portfolio"}>
                   Portfolio
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to={"/contact"}>
+                <NavLink className="nav-link" to={"contact"}>
                   Contact
                 </NavLink>
               </li>
