@@ -10,7 +10,7 @@ import './App.css'
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/assignmentReact",
       element: <Parent />,
       children: [
         { path: "", element: <Home /> },
